@@ -7,34 +7,55 @@
 
 <body>
   <div class="first_page_background">
-    <div class="intro_background">
-      <div class="intro_container">
-        <div class="name_conatiner">
-          I am Abhishek.
+    <div class="first_page">
+      <div class="toggle_state_btn"><button class="toggle_state_btn_btn" onclick="toggle()">
+        <span class="slice"></span>
+        <span class="slice"></span>
+        <span class="slice"></span>
+        
+      </button>
+    </div>
+
+
+      <div class="header_nav_bar">
+        <div class="Projects"><a href="#project_page_container">Projects</a></div>
+        <div class="contactme"><a href="#footer">Contact me</a></div>
+        <div class="resume"><a href="">Resume</a></div>
+        <div class="Technical skills"><a href="">Technical skills</a></div>
+      </div>
+
+
+      <div class="intro_background">
+        <div class="intro_container">
+          <div class="name_conatiner">
+            I am Abhishek.
+
+          </div>
+          <div class="name_conatiner_subtext">
+            Full-stack-developer<br> Working with object-oriented
+            programming,<br> front end and back end technologies.
+
+          </div>
+          <div class="social_media_container">
+            <a href="#gmail"><img class="contact_images " src="images\icons8-gmail-logo.svg" alt="hoi"></a>
+            <a href="https://www.linkedin.com/in/abhishek-raut-923865147/"><img class="contact_images "
+                src="images\icons8-linkedin.svg" alt="hoi"></a>
+            <a href="https://github.com/abhishekdraut"><img class="contact_images " src="images\icons8-github.svg"
+                alt="hoi"></a>
+            <a href="#footer"><img class="contact_images " src="images\icons8-phone-90.png" alt="hoi"></a>
+
+          </div>
 
         </div>
-        <div class="name_conatiner_subtext">
-          Full-stack-developer<br> Working with object-oriented
-          programming,<br> front end and back end technologies.
 
-        </div>
-        <div class="social_media_container">
-          <a href="#gmail"><img class="contact_images " src="images\icons8-gmail-logo.svg"
-              alt="hoi"></a>
-          <a href="https://www.linkedin.com/in/abhishek-raut-923865147/"><img class="contact_images "
-              src="images\icons8-linkedin.svg" alt="hoi"></a>
-          <a href="https://github.com/abhishekdraut"><img class="contact_images " src="images\icons8-github.svg"
-              alt="hoi"></a>
-          <a href="#footer"><img class="contact_images " src="images\icons8-phone-90.png" alt="hoi"></a>
 
-        </div>
+
 
       </div>
 
 
-
-
     </div>
+
     <div class="aboutus_container">
       <div class=aboutus_container_flex>
         <div class="aboutme_title">About Me</div>
@@ -43,7 +64,7 @@
 
         </div>
         <div class="aboutus_subtext">
-         
+
 
 
         </div>
@@ -106,11 +127,11 @@
       </div>
 
     </div>
-    
+
     <!-- =====================tchnology container=========== -->
     <div class="technologies_container">
       <div class="technologies_container header">
-        Technologies which I am Currentlly working with. 
+        Technologies which I am Currentlly working with.
 
       </div>
 
@@ -126,30 +147,34 @@
 
     </div>
     <!-- ===========project container============ -->
-    <div class="project_page_container">
+    <div class="project_page_container" id="project_page_container">
       <div class="project_page header"> Projects</div>
       <div class="projects_conatiner">
         <div class="project_card">
           <div class="project_thumbail">
-           <a href="https://github.com/abhishekdraut/Quetion-answer-forum-Django"><img class="project_thumbnail " src="images\Project\QA.png" alt="project thumbnail"></a> 
+            <a href="https://github.com/abhishekdraut/Quetion-answer-forum-Django"><img class="project_thumbnail "
+                src="images\Project\QA.png" alt="project thumbnail"></a>
 
           </div>
           <div class="project_description">
             <a href="https://github.com/abhishekdraut/Quetion-answer-forum-Django">
-            <div class="project_title">(Django)Question Answer Discussion Forum: </div>
-            <div class="project_description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto,
-              maiores?</div>
+              <div class="project_title">(Django)Question Answer Discussion Forum: </div>
+              <div class="project_description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto,
+                maiores?</div>
             </a>
           </div>
 
         </div>
         <div class="project_card">
           <div class="project_thumbail">
-            <a href="https://unruffled-mccarthy-8dbb0e.netlify.app/"> <img class="project_thumbnail " src="images\Project\scribd.png" alt="project thumbnail"></a>
+            <a href="https://unruffled-mccarthy-8dbb0e.netlify.app/"> <img class="project_thumbnail "
+                src="images\Project\scribd.png" alt="project thumbnail"></a>
 
           </div>
           <div class="project_description">
-            <a href="https://unruffled-mccarthy-8dbb0e.netlify.app/"><div class="project_title">(React)Online Book Liabrary: </div></a>
+            <a href="https://unruffled-mccarthy-8dbb0e.netlify.app/">
+              <div class="project_title">(React)Online Book Liabrary: </div>
+            </a>
             <div class="project_description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto,
               maiores?</div>
 
@@ -158,45 +183,48 @@
         </div>
         <div class="project_card">
           <div class="project_thumbail">
-            <a href="https://github.com/abhishekdraut/Trekking-book-and-plannign-django-"><img class="project_thumbnail " src="images\Project\Trek.png" alt="project thumbnail"></a>
+            <a href="https://github.com/abhishekdraut/Trekking-book-and-plannign-django-"><img
+                class="project_thumbnail " src="images\Project\Trek.png" alt="project thumbnail"></a>
 
           </div>
           <div class="project_description">
             <a href="https://github.com/abhishekdraut/Trekking-book-and-plannign-django-">
               <div class="project_title">(Django,DRF)Trekking and Planning Web Application:</div>
-            <div class="project_description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto,
-              maiores?</div>
+              <div class="project_description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto,
+                maiores?</div>
             </a>
-            
+
 
           </div>
 
         </div>
         <div class="project_card">
           <div class="project_thumbail">
-           <a href="https://github.com/abhishekdraut/Ecommerce-application-django-"> <img class="project_thumbnail " src="images\Project\ecom.png" alt="project thumbnail"></a>
+            <a href="https://github.com/abhishekdraut/Ecommerce-application-django-"> <img class="project_thumbnail "
+                src="images\Project\ecom.png" alt="project thumbnail"></a>
 
           </div>
           <div class="project_description">
             <a href="https://github.com/abhishekdraut/Ecommerce-application-django-">
-            <div class="project_title">(Django,DRF)Ecommerce Web Application (...inprogress):</div>
-            <div class="project_description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto,
-              maiores?</div>
+              <div class="project_title">(Django,DRF)Ecommerce Web Application (...inprogress):</div>
+              <div class="project_description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto,
+                maiores?</div>
             </a>
           </div>
 
         </div>
         <div class="project_card">
           <div class="project_thumbail">
-           <a href="https://github.com/abhishekdraut/Invoice-Manager-Backend-Django-DRF"><img class="project_thumbnail " src="images\Project\invoicing.png" alt="project thumbnail"></a>
+            <a href="https://github.com/abhishekdraut/Invoice-Manager-Backend-Django-DRF"><img
+                class="project_thumbnail " src="images\Project\invoicing.png" alt="project thumbnail"></a>
 
           </div>
 
           <div class="project_description">
             <a href="https://github.com/abhishekdraut/Invoice-Manager-Backend-Django-DRF">
-            <div class="project_title">(React,DRF)Accounting Web Application (...inprogress):</div>
-            <div class="project_description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto,
-              maiores?</div>
+              <div class="project_title">(React,DRF)Accounting Web Application (...inprogress):</div>
+              <div class="project_description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto,
+                maiores?</div>
             </a>
           </div>
 
@@ -207,11 +235,12 @@
 
 
     </div>
+
     <!-- =========footer=============================== -->
 
     <div class="footer_container">
 
-      <div class="footer_box">
+      <div class="footer_box" id="footer">
         <div class="box_title">Phone</div>
         <div class="box_subtext"><a class="box_subtext" href="">9145046639</a></div>
       </div>
@@ -224,8 +253,8 @@
         <div class="box_subtext_img_container">
           <div class="box_subtext"><a href=""><img class="contact_images box_subtext_img "
                 src="images\icons8-linkedin.svg" alt="hoi"></a></div>
-          <div class="box_subtext"><a href=""><img class="contact_images box_subtext_img"
-                src="images\icons8-github.svg" alt="hoi"></a></div>
+          <div class="box_subtext"><a href=""><img class="contact_images box_subtext_img" src="images\icons8-github.svg"
+                alt="hoi"></a></div>
         </div>
       </div>
       <div class="footer_box" id="footer">
@@ -242,6 +271,7 @@
 
 
   </div>
+  <script src="script.js"></script>
 </body>
 
 </html>
