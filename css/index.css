@@ -41,9 +41,7 @@ body::-webkit-scrollbar{
 .contact_images {
   height: 50px;
 }
-.contact_images:hover {
-  height: 52px;
-}
+
 .social_media_container {
   display: flex;
   gap: 20px;
